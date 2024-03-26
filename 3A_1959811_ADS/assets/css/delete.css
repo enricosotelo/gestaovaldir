@@ -52,10 +52,26 @@
     background-color: #dc3545; /* Cor de fundo */
     border-color: #dc3545; /* Cor da borda */
     color: #fff; /* Cor do texto */
-    margin-left: 600px;
+    margin-left: 560px;
 }
 
 .btn-excluir:hover {
     background-color: #c82333; /* Cor de fundo ao passar o mouse */
     border-color: #bd2130; /* Cor da borda ao passar o mouse */
+}
+/* Estilo para o botão Voltar */
+.btn-voltar {
+    display: inline-block; /* Alterado para inline-block */
+    margin: 0 auto; /* Centraliza o botão horizontalmente */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Borda arredondada */
+    background-color: #6c757d; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    cursor: pointer; /* Cursor de ponteiro ao passar por cima */
+    transition: background-color 0.3s; /* Transição suave de cor de fundo */
+}
+
+.btn-voltar:hover {
+    background-color: #495057; /* Cor de fundo ao passar o mouse */
 }
